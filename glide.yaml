@@ -1,0 +1,12 @@
+package: ipfs-stitching
+import:
+- package: github.com/RealImage/go-ipfs-api
+- package: github.com/btcsuite/btcutil
+  subpackages:
+  - /base58
+- package: github.com/dropbox/gogoprotobuf
+  subpackages:
+  - /proto
+- package: github.com/golang/protobuf
+  subpackages:
+  - /proto
